@@ -43,7 +43,7 @@
 
     <!-- Hero Section -->
     <section class="gradient-hero py-12 md:py-20 lg:py-28 relative overflow-hidden">
-      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/bg (2).jpg');"></div>
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/Ozapolyclinic/bg (2).jpg');"></div>
       <!-- Overlay for better text readability with smooth transition -->
       <div class="absolute inset-0 bg-black/75 md:bg-black/30 transition-opacity duration-500"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(37,99,235,0.1),transparent_50%)]"></div>
