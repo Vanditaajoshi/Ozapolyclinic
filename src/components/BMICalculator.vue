@@ -420,12 +420,6 @@
             <div v-if="bmiResult === null" class="mt-6 text-center">
               <p class="text-sm text-gray-500 italic">Calculate your BMI to see the visualization</p>
             </div>
-            <div v-else class="mt-6 p-4 rounded-xl" :class="resultCardClass">
-              <div class="text-center">
-                <p class="text-lg font-bold mb-2">{{ bmiCategory }}</p>
-                <p class="text-sm text-gray-700">{{ categoryDescription }}</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

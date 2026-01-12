@@ -43,7 +43,7 @@
 
     <!-- Hero Section -->
     <section class="gradient-hero py-12 md:py-20 lg:py-28 relative overflow-hidden">
-      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/Ozapolyclinic/bg (2).jpg');"></div>
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/bg (2).jpg');"></div>
       <!-- Overlay for better text readability with smooth transition -->
       <div class="absolute inset-0 bg-black/75 md:bg-black/30 transition-opacity duration-500"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(37,99,235,0.1),transparent_50%)]"></div>
@@ -88,7 +88,7 @@
           <div class="bg-gradient-to-br from-blue-50/50 via-white to-green-50/30 rounded-3xl p-6 md:p-10 shadow-xl hover-lift card-transition border border-blue-100/50">
             <div class="prose prose-lg max-w-none">
               <p class="text-base md:text-lg text-gray-700 leading-relaxed mb-6 animate-fade-in-up stagger-1">
-                Dr. Deep KishorBhai Oza is a practicing physician in <strong>Madhapar-Bhuj</strong>, providing holistic and patient-focused healthcare. Dr. Oza treats both acute and chronic conditions and offers general physician consultations for common health concerns such as fever, cold, cough, infections, diabetes, and blood pressure monitoring.
+                Dr. Deep Kishorbhai Oza is a practicing physician in <strong>Madhapar-Bhuj</strong>, providing holistic and patient-focused healthcare. Dr. Oza treats both acute and chronic conditions and offers general physician consultations for common health concerns such as fever, cold, cough, infections, diabetes, and blood pressure monitoring.
               </p>
               <p class="text-base md:text-lg text-gray-700 leading-relaxed animate-fade-in-up stagger-2">
                 He follows an integrated and ethical approach to patient care, emphasizing accurate diagnosis, safe treatment, and long-term wellness. The clinic is known for delivering comprehensive primary care services with a strong focus on personalized treatment plans, patient education, and overall well-being for individuals and families in <strong>Madhapar-Bhuj</strong>.
@@ -130,7 +130,7 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-gray-900 mb-1">General Consultation</h3>
-                  <p class="text-sm text-gray-600">Care for common illnesses and routine health monitoring</p>
+                  <p class="text-sm text-gray-600">Care for common illness and routine health monitoring</p>
                 </div>
               </div>
               
@@ -302,13 +302,13 @@
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-red-600 mt-1">•</span>
-                  <span>Lifestyle counseling</span>
+                  <span>Lifestyle counselling</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <!-- Infections & Common Illnesses -->
+          <!-- Infections & Common illness -->
           <div class="bg-white rounded-3xl p-6 md:p-8 shadow-xl hover-lift card-transition animate-scale-in stagger-4 group relative overflow-hidden border border-purple-100">
             <div class="absolute inset-0 bg-gradient-to-br from-purple-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <div class="relative z-10">
@@ -317,7 +317,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4 text-center">Infections & Illnesses</h3>
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4 text-center">Infections & Illness</h3>
               <ul class="text-sm md:text-base text-gray-600 space-y-2">
                 <li class="flex items-start gap-2">
                   <span class="text-purple-600 mt-1">•</span>
@@ -433,7 +433,7 @@
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-pink-600 mt-1">•</span>
-                  <span>Stress & sleep counseling</span>
+                  <span>Stress & sleep counselling</span>
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-pink-600 mt-1">•</span>
@@ -456,7 +456,7 @@
               <ul class="text-sm md:text-base text-gray-600 space-y-2">
                 <li class="flex items-start gap-2">
                   <span class="text-cyan-600 mt-1">•</span>
-                  <span>Pediatric common illnesses</span>
+                  <span>Pediatric common illness</span>
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-cyan-600 mt-1">•</span>
