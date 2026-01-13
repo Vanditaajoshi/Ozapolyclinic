@@ -43,7 +43,7 @@
 
     <!-- Hero Section -->
     <section class="gradient-hero py-12 md:py-20 lg:py-28 relative overflow-hidden">
-      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/bg (2).jpg');"></div>
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out" :style="{ backgroundImage: `url('${currentBackgroundImage}')` }"></div>
       <!-- Overlay for better text readability with smooth transition -->
       <div class="absolute inset-0 bg-black/75 md:bg-black/30 transition-opacity duration-500"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(37,99,235,0.1),transparent_50%)]"></div>
@@ -524,11 +524,33 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 import BMICalculator from './components/BMICalculator.vue'
 
 const phoneNumber = '+917359647410'
 const whatsappNumber = '917359647410'
+
+// Background slideshow
+const backgroundImages = ['/clinic1.jpeg', '/clinic2.jpeg']
+const currentImageIndex = ref(0)
+let slideshowInterval = null
+
+const currentBackgroundImage = computed(() => {
+  return backgroundImages[currentImageIndex.value]
+})
+
+onMounted(() => {
+  // Change image every 5 seconds
+  slideshowInterval = setInterval(() => {
+    currentImageIndex.value = (currentImageIndex.value + 1) % backgroundImages.length
+  }, 5000)
+})
+
+onUnmounted(() => {
+  if (slideshowInterval) {
+    clearInterval(slideshowInterval)
+  }
+})
 
 const whatsappUrl = computed(() => {
   const message = encodeURIComponent('Hello, I would like to book an appointment with Dr.Deep Oza.')
