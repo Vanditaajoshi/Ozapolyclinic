@@ -105,7 +105,7 @@
                   </svg>
                 </div>
                 <div>
-                  <h3 class="font-semibold text-gray-900 mb-1">General Physician</h3>
+                  <h3 class="font-semibold text-gray-900 mb-1">Family Physician</h3>
                   <p class="text-sm text-gray-600">Comprehensive primary healthcare services</p>
                 </div>
               </div>
